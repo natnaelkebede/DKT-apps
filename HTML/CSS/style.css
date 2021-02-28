@@ -1,0 +1,203 @@
+body{
+    margin: 0 auto;
+    background-color: rgba(0, 40, 173, 0.842);
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: rgba(160, 169, 218, 0.993);
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.mainmenu{
+    background-color: rgba(160, 169, 218, 0.993);
+}
+.mainmenu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.mainmenu > ul > li{
+    display: inline-block;
+}
+.mainmenu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+.mainmenu > ul > li > a:hover{
+    background-color: rgb(1, 138, 24);
+}
+
+/* drop down for news */
+
+.newsdrop{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+position: absolute;
+z-index: 999;
+}
+.newsdrop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+    display: none;
+}
+.newsdrop > li > a:hover{
+    background-color: rgb(138, 138, 6);
+}
+
+.mainmenu > ul > li:hover .newsdrop > li > a{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 562.22px;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/*content holder */
+.content-holder{
+    background-color: rgba(0, 40, 173, 0.842);
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: bisque;
+    float: left;
+}
+.content .h1{
+    size: 1.5em;
+
+}
+.asidebar{
+    float: left;
+    padding: 25px;
+}
+.asidebar h3{
+    color: white;
+}
+.asidebar a{
+color: white;
+margin-bottom: 5px;
+font-style: italic;
+font-family: sans-serif;
+display: block;
+text-decoration: none;
+}
+.asidebar ul > li {
+    list-style-type: none;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 316.6666666666667px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.copy p{
+    margin: 0px;
+}
+.content img{
+   max-width: 100%;
+}
+.product {
+    width: 211.33px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.product p{
+    font-weight: bold;
+}
+.product del{
+    color: red;
+}
+.product-caption p{
+    color: green;
+}
+.product a{
+    display: block;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.product a:hover{
+    background-color: green;
+}
+
+.banner iframe{
+    width: 100%;
+    height: 562.22px;
+}
+.log-in{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    padding: 25px;
+    float: left;
+    border: 2px solid black;
+    
+}
+.sign-in{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: 0px;
+    padding: 25px;
+    float: left;
+    border: 2px solid black;
+}
